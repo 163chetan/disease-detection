@@ -1,0 +1,49 @@
+{
+  "lung": {
+    "accuracy": 0.9193,
+    "std": 0.0432,
+    "folds": 5,
+    "samples": 309,
+    "dataset": "Lung cancer survey dataset (309 records)",
+    "method": "5-fold cross-validation",
+    "evaluated": "2026-11-19"
+  },
+  "breast": {
+    "accuracy": 0.9649,
+    "std": 0.0055,
+    "folds": 5,
+    "samples": 569,
+    "dataset": "Wisconsin breast cancer dataset (569 samples)",
+    "method": "5-fold cross-validation",
+    "evaluated": "2026-11-19"
+  },
+  "heart": {
+    "accuracy": 0.8416,
+    "std": 0.0448,
+    "folds": 5,
+    "samples": 303,
+    "dataset": "Heart disease dataset (303 patients)",
+    "method": "5-fold cross-validation",
+    "evaluated": "2026-11-19"
+  },
+  "diabetes": {
+    "accuracy": 0.7708,
+    "std": 0.0132,
+    "folds": 5,
+    "samples": 768,
+    "dataset": "PIMA Indians diabetes dataset (768 patients)",
+    "method": "5-fold cross-validation",
+    "evaluated": "2026-11-19",
+    "note": "Evaluated on the PIMA dataset (adult women of Pima heritage); other populations may differ."
+  },
+  "symptom": {
+    "accuracy": 1.0,
+    "std": 0.0,
+    "folds": 5,
+    "samples": 4930,
+    "dataset": "Symptom\u2013disease dataset (4930 cases, 42 diseases)",
+    "method": "5-fold cross-validation",
+    "evaluated": "2026-11-19",
+    "note": "This dataset is highly idealised, so a near-perfect score overstates real-world accuracy."
+  }
+}
